@@ -1,16 +1,20 @@
 # kelpCodingChallenge
+
 I developed this Bank Application using Hibernate, JPA , MySQL
 
 
 #Software :
+
   1.Spring Tool Suit 4
   2.MySQL
   
-#Dependencies
+#Dependencies :
+
   1.Hibernate
   2.MySQL
 
-#step 
+#step :
+
 1.Open STS4 ,import exiting maven project
 2.After openging the maven project in STS4 
 3.open com.Bank package
@@ -21,7 +25,8 @@ I developed this Bank Application using Hibernate, JPA , MySQL
 8.click '5' for exit the from the Application
 
 
-#step to view  the Database & Table
+#step to view  the Database & Table:
+
 1.open mysql command line client
 2. set 'bank' Database (command :- "use bank")
 3.to view the table (command :- "select * from Account")

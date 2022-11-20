@@ -21,9 +21,11 @@ I developed this Bank Application using Hibernate, JPA , MySQL
 3. open com.Bank package
 4. open Application.java file 
 5. then right click and Run As -> Java Application
-6. In Console we can see the open 
-7. select option to perform the operation
-8. click '5' for exit the from the Application
+6. if you facing error in creating table just go to the Persistence.xml file() change the hibernate property value "update" to "create" 
+7. then again run the code (after running one time open file again change  the hibernate property value "create" to "update")
+8. In Console we can see the open 
+9. select option to perform the operation
+10. click '5' for exit the from the Application
 
 
 ### **Step To View  The Database & Table**:

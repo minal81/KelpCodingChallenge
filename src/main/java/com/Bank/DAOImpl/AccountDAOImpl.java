@@ -63,8 +63,8 @@ public class AccountDAOImpl implements AccountDAO {
 			A1.setBalance(2000.00);}
 		
 		 em.persist(A1);
+		 JOptionPane.showMessageDialog(jp, "Account Created Successfully Your Account Number :-  "+A1.getAccountNo(), "Alert", JOptionPane.INFORMATION_MESSAGE);
 		 et.commit();
-		 JOptionPane.showMessageDialog(jp, "Account Created Successfully", "Alert", JOptionPane.INFORMATION_MESSAGE);
 		 return true;
 		
 	}
